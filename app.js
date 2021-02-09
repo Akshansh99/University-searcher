@@ -20,27 +20,6 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
-// app.get("/results", (req, res) => {
-
-
-//     const pre = 'http://universities.hipolabs.com/search?country=';
-//     const subreddit = req.query.sub;
-
-//     request(`${pre}${subreddit}`, (error, response, body) => {
-//         if (!error && response.statusCode == 200) {
-//             const child = JSON.parse(body);
-
-//             if (child.length == 0) {
-//                 res.redirect("error");
-//             } else {
-//                 res.render("results.ejs", { child: child });
-//             }
-
-//         }
-//     });
-
-// });
-
 app.get("/results", (req, res) => {
 
     const pre = 'http://universities.hipolabs.com/search?country=';
