@@ -1,0 +1,15 @@
+<%- include ("partials/header.ejs") %>
+<div class="container-results">
+        <h1>Results Page - <%= child[0].country %></h1>
+
+        <% child.forEach((kid)=>{ %>
+                <div class="border-results">
+                    <p><%= kid.name %></p>
+                    <a class="website" href =<%= kid.web_pages[0] %>>Official Website</a>
+                </div>
+                <br>
+            <% }) %>
+
+</div>
+<%- include ("partials/footer.ejs") %>
+

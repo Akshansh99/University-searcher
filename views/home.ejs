@@ -1,0 +1,13 @@
+<%- include ("partials/header.ejs") %>
+
+    <div class="container-home">
+        <h1>University Search</h1>
+        <h2>Search universities by country!</h2>
+
+        <form action="/results" method="GET">
+            <input autocomplete ="off" class="search-home" type="search" placeholder="Search Your Country" name="sub">
+            <button class="btn-home">Search</button>
+        </form>
+    </div>
+
+<%- include ("partials/footer.ejs") %>
