@@ -1,0 +1,14 @@
+REQUIREMENTS-
+-->Node
+-->npm
+
+RUN THESE COMMANDS IN BASH OR CLI OF YOUR CHOICE -
+--> git clone https://github.com/Akshansh99/University-searcher.git
+-->npm install
+
+
+TO RUN THE PROJECT
+-->npm start
+
+
+Go to localhost:8400 in any browser to view website
